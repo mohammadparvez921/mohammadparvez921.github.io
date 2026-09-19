@@ -1,7 +1,7 @@
 import FadeIn from '@/components/fade-in';
 import {Cycle, Typed} from '@/components/typed';
 
-const titles = ['Full-Stack AI Engineer', 'Node.js Developer', 'Real-Time Systems', 'IoT Platforms'];
+const titles = ['Full-Stack AI Engineer', 'Agentic AI', 'Gen AI', 'Real-Time Systems'];
 
 const stats = [
 	{n: '3+', k: 'Years in production'},
