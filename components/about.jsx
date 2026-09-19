@@ -6,6 +6,7 @@ const headings = [
 	'LLMs wired into real products.',
 	'From sensor streams to smart decisions.',
 	'Agentic AI on solid backends.',
+	"Always exploring what's next in AI.",
 ];
 
 const focus = [
@@ -17,6 +18,7 @@ const focus = [
 	'Real-Time Systems',
 	'MERN / MEVN',
 	'REST & GraphQL APIs',
+	'Exploring New AI Tech',
 	'Team Leadership',
 ];
 
@@ -50,8 +52,9 @@ export default function About() {
 						</p>
 						<p>
 							Underneath the models I care about the same things on every project — dependable APIs, clean data
-							pipelines, and UI that stays out of the way. Currently taking on <b>remote, part-time, and contract</b> AI
-							engineering work.
+							pipelines, and UI that stays out of the way. I&apos;m always exploring new AI technologies and folding
+							what works into real products. Currently taking on <b>remote, part-time, and contract</b> AI engineering
+							work.
 						</p>
 					</FadeIn>
 					<FadeIn
