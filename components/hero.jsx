@@ -5,8 +5,8 @@ const titles = ['Full-Stack AI Engineer', 'Agentic AI', 'Gen AI', 'Real-Time Sys
 
 const stats = [
 	{n: '3+', k: 'Years in production'},
-	{n: '40%', k: 'Latency cut'},
-	{n: '99%', k: 'Uptime held'},
+	{n: '+50%', k: 'AI content output'},
+	{n: '−80%', k: 'Input errors'},
 	{n: '4', k: 'Engineers led'},
 ];
 
@@ -54,9 +54,10 @@ export default function Hero() {
 					className='lede'
 					delay={660}
 					immediate={true}>
-					I build and ship <b>real-time web and IoT products</b> — dependable APIs, clean data pipelines, and UI that
-					stays out of the way. Most recently <b>Senior Founding Engineer at Trillectric Gridmend</b>, leading a team of
-					four. Available for <b>remote, part-time, and contract</b> work.
+					I build <b>AI-powered products</b> end to end — <b>agentic systems</b>, <b>LLM integrations</b>, and the
+					real-time backends they run on. Currently building an <b>anomaly-detection AI agent</b> as{' '}
+					<b>Senior Founding Engineer at Trillectric Gridmend</b>. Available for <b>remote, part-time, and contract</b>{' '}
+					AI engineering work.
 				</FadeIn>
 				<FadeIn
 					className='cta'

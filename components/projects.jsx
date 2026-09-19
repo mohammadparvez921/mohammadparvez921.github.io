@@ -2,19 +2,26 @@ import FadeIn from '@/components/fade-in';
 
 const projects = [
 	{
-		title: 'Real-Time Solar Monitoring Platform',
+		title: 'Anomaly-Detection AI Agent',
 		description:
-			'Full-stack MERN system with Modbus IoT sensors over Socket.io, Chart.js dashboards, and AWS Textract/Rekognition + Gemini for automated data enrichment.',
-		stack: ['Node.js', 'React.js', 'Socket.io', 'Modbus', 'AWS', 'Chart.js'],
-		impact: '40% lower latency · 99% uptime',
+			'An AI agent that watches real-time sensor streams to identify sensor failures, production outliers, and data inconsistencies as they happen.',
+		stack: ['Agentic AI', 'Anomaly detection', 'Real-time streams'],
+		impact: 'In progress · Trillectric Gridmend',
 		featured: true,
 	},
 	{
 		title: 'AI-Powered Blog Writer',
 		description:
-			'Prompt-driven content tool built on the OpenAI API with direct WordPress publishing and input validation.',
-		stack: ['Node.js', 'OpenAI API', 'WordPress API'],
+			'Prompt-driven blogging tool built on the OpenAI API with direct WordPress publishing and input validation.',
+		stack: ['OpenAI API', 'Node.js', 'WordPress API'],
 		impact: '+50% output · −80% input errors',
+	},
+	{
+		title: 'Real-Time Solar Monitoring Platform',
+		description:
+			'AWS Textract/Rekognition OCR automation and Gemini-based geolocation extraction layered onto a full-stack MERN system streaming Modbus IoT sensor data over Socket.io, with Chart.js dashboards.',
+		stack: ['Gemini API', 'AWS Textract', 'Rekognition', 'Node.js', 'React.js', 'Socket.io'],
+		impact: '40% lower latency · 99% uptime',
 	},
 	{
 		title: 'Short-Video Streaming App',
@@ -42,7 +49,7 @@ export default function Projects() {
 				<FadeIn
 					as='h2'
 					delay={60}>
-					Built for real users.
+					AI, shipped to production.
 				</FadeIn>
 				<div className='cards'>
 					{projects.map((p, i) => (

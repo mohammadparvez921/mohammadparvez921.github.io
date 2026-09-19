@@ -30,8 +30,8 @@ export default function Contact() {
 					as='p'
 					className='sub'
 					delay={100}>
-					Open to remote and part-time roles, freelance contracts, or a quick chat about your stack. My inbox is always
-					open.
+					Open to remote and part-time roles, freelance contracts, or a quick chat about your AI roadmap. My inbox is
+					always open.
 				</FadeIn>
 				<FadeIn
 					className='socials'

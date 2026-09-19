@@ -2,6 +2,11 @@ import FadeIn from '@/components/fade-in';
 
 const groups = [
 	{
+		title: 'AI & LLMs',
+		items: ['Agentic AI', 'Gen AI', 'OpenAI API', 'Gemini API', 'AWS Textract', 'AWS Rekognition', 'Anomaly detection'],
+		wide: true,
+	},
+	{
 		title: 'Frontend',
 		items: ['React.js', 'Vue.js', 'Next.js', 'Nuxt.js', 'Redux', 'Tailwind CSS', 'Bootstrap', 'HTML5 / CSS3'],
 	},
@@ -10,17 +15,12 @@ const groups = [
 		items: ['Node.js', 'Express.js', 'GraphQL', 'REST APIs', 'Socket.io', 'Keystone.js', 'JWT'],
 	},
 	{
-		title: 'Data',
-		items: ['MongoDB', 'Mongoose', 'MySQL'],
+		title: 'Data & Systems',
+		items: ['MongoDB', 'Mongoose', 'MySQL', 'IoT / Modbus', 'Real-time streams'],
 	},
 	{
 		title: 'Cloud & DevOps',
 		items: ['Docker', 'AWS Lambda', 'AWS IoT Core', 'GCP', 'Nginx', 'CI/CD', 'Git'],
-	},
-	{
-		title: 'Systems & AI',
-		items: ['IoT / Modbus', 'Real-time streams', 'OpenAI API', 'Gemini API', 'Agentic AI', 'AWS Textract/Rekognition'],
-		wide: true,
 	},
 ];
 

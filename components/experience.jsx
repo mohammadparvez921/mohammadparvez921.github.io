@@ -7,9 +7,10 @@ const roles = [
 		period: 'Sep 2024 – Present',
 		location: 'Remote, India',
 		highlights: [
-			'Built a real-time solar monitoring platform (MERN + Cordova), ingesting Modbus IoT sensor data over Socket.io — cut data latency by 40% and held 99% uptime in production.',
-			'Led a team of 4 engineers to architect scalable REST & GraphQL APIs, plus AWS Textract/Rekognition OCR and Gemini-based geolocation enrichment.',
-			'Currently building an AI agent for real-time anomaly detection across sensor faults and production outliers.',
+			'Currently developing an AI agent for anomaly detection to identify sensor failures, production outliers, and data inconsistencies in real-time streams.',
+			'Built AI-powered enhancements: AWS Textract/Rekognition for OCR-driven automation and Gemini-based geolocation extraction to enrich real-time analytics.',
+			'Engineered a real-time solar monitoring platform (MERN + Cordova), ingesting Modbus IoT sensor data over Socket.io — cut data latency by 40% and held 99% uptime in production.',
+			'Led a team of 4 engineers to architect scalable REST & GraphQL APIs on Node.js/Express.js.',
 		],
 	},
 	{
@@ -18,8 +19,8 @@ const roles = [
 		period: 'Sep 2023 – Sep 2024',
 		location: 'New Delhi, India',
 		highlights: [
+			'Shipped an AI-powered blog writer — a prompt-driven tool on the OpenAI API with WordPress publishing — content output up 50%, input errors down 80%.',
 			'Architected an influencer-marketing backend on MongoDB aggregation pipelines (+40% query performance) with Nuxt.js/Vue.js watchers (−25% UI latency).',
-			'Shipped an AI-powered blog writer using the OpenAI API with WordPress publishing — content output up 50%, input errors down 80%.',
 			'Designed an import–export platform with Mongoose validation hooks and a Vue.js dashboard — manual data entry down 60%.',
 			'Launched a short-video streaming app (Vue.js, GraphQL, Cordova) with real-time comments and reactions — onboarding efficiency up 40%.',
 			'Modernized an EdTech platform (React.js, Redux), cutting post-release defects by 20% and integration time by 30%.',

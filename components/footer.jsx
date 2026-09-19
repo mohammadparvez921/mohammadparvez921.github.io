@@ -3,7 +3,7 @@ export default function Footer() {
 		<footer>
 			<div className='wrap foot'>
 				<span>© {new Date().getFullYear()} Mohammad Parvez</span>
-				<span>Full-stack · real-time · remote</span>
+				<span>Full-stack AI · agentic · remote</span>
 			</div>
 		</footer>
 	);
