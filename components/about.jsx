@@ -40,7 +40,7 @@ export default function About() {
 				<div className='about-grid'>
 					<FadeIn>
 						<p>
-							I&apos;m Parvez — a full-stack engineer with <b>3+ years</b> shipping production systems across the{' '}
+							I&apos;m Parvez — a full-stack AI engineer with <b>3+ years</b> shipping production systems across the{' '}
 							<b>MERN and MEVN</b> stacks. Most recently I built a real-time IoT monitoring platform from the ground up:
 							cutting data latency by <b>40%</b> and holding <b>99% uptime</b> while leading a team of four.
 						</p>

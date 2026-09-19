@@ -338,7 +338,7 @@ h1 .l2 {
 	display: block;
 	color: transparent;
 	-webkit-text-stroke: 1.4px var(--text);
-	font-size: clamp(24px, 6vw, 72px);
+	font-size: clamp(15px, 5.1vw, 64px);
 	white-space: nowrap;
 	overflow: hidden;
 	min-height: 1.2em;
@@ -853,6 +853,11 @@ footer {
 
 	.cta {
 		flex-direction: column;
+	}
+
+	/* Thinner outline so small glyph counters stay open. */
+	h1 .l2 {
+		-webkit-text-stroke-width: 0.8px;
 	}
 
 	.btn {

@@ -37,8 +37,10 @@ export function Cycle({
 	startDelay = 0,
 	startInView = false,
 	hold = 2000,
-	type: typeSpeed = [60, 40],
-	erase: eraseSpeed = [30, 20],
+	// [min, spread] in ms. Destructured to numbers so the effect below never sees a fresh array
+	// identity: every typed character re-renders, and a changing dependency would restart the loop.
+	type: [typeMin, typeSpread] = [60, 40],
+	erase: [eraseMin, eraseSpread] = [30, 20],
 	blankInitially = true,
 }) {
 	const [text, setText] = useState(blankInitially ? '' : words[0]);
@@ -65,7 +67,7 @@ export function Cycle({
 					timer = setTimeout(tick, hold);
 					return;
 				}
-				timer = setTimeout(tick, rand(...typeSpeed));
+				timer = setTimeout(tick, rand(typeMin, typeSpread));
 			} else {
 				setText(word.slice(0, --charIndex));
 				if (charIndex === 0) {
@@ -74,7 +76,7 @@ export function Cycle({
 					timer = setTimeout(tick, 350);
 					return;
 				}
-				timer = setTimeout(tick, rand(...eraseSpeed));
+				timer = setTimeout(tick, rand(eraseMin, eraseSpread));
 			}
 		};
 		const start = () => {
@@ -101,7 +103,7 @@ export function Cycle({
 			clearTimeout(timer);
 			observer?.disconnect();
 		};
-	}, [words, startDelay, startInView, hold, typeSpeed, eraseSpeed]);
+	}, [words, startDelay, startInView, hold, typeMin, typeSpread, eraseMin, eraseSpread]);
 
 	return (
 		<Tag

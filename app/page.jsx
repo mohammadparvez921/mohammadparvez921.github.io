@@ -11,9 +11,9 @@ import Skills from '@/components/skills';
 export const meta = {
 	base: 'https://mohammadparvez921.github.io',
 	url: 'https://mohammadparvez921.github.io',
-	title: 'Md Parvez Alam Khan – Full-Stack Engineer',
+	title: 'Md Parvez Alam Khan – Full-Stack AI Engineer',
 	description:
-		'Full-stack engineer with 3+ years building real-time web and IoT products with Node.js, React, Vue, and MongoDB. Open to remote, part-time, and contract roles.',
+		'Full-stack AI engineer with 3+ years building real-time web, IoT, and AI products with Node.js, React, Vue, and MongoDB. Open to remote, part-time, and contract roles.',
 };
 
 export const metadata = {

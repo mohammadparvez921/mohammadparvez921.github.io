@@ -1,7 +1,7 @@
 import FadeIn from '@/components/fade-in';
 import {Cycle, Typed} from '@/components/typed';
 
-const titles = ['Full-Stack Engineer', 'Node.js Developer', 'Real-Time Systems', 'IoT Platforms'];
+const titles = ['Full-Stack AI Engineer', 'Node.js Developer', 'Real-Time Systems', 'IoT Platforms'];
 
 const stats = [
 	{n: '3+', k: 'Years in production'},
@@ -27,7 +27,7 @@ export default function Hero() {
 					delay={330}
 					immediate={true}>
 					<span className='u'>parvez@fullstack</span>
-					<span className='p'>:</span>~$ <Typed text='whoami --role "full-stack engineer"' />
+					<span className='p'>:</span>~$ <Typed text='whoami --role "full-stack ai engineer"' />
 					<span className='caret' />
 				</FadeIn>
 				<FadeIn
