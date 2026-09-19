@@ -9,8 +9,8 @@ import Projects from '@/components/projects';
 import Skills from '@/components/skills';
 
 export const meta = {
-	base: 'https://md-parvez-portfolio.vercel.app',
-	url: 'https://md-parvez-portfolio.vercel.app',
+	base: 'https://mohammadparvez921.github.io',
+	url: 'https://mohammadparvez921.github.io',
 	title: 'Md Parvez Alam Khan – Full-Stack Engineer',
 	description:
 		'Full-stack engineer with 3+ years building real-time web and IoT products with Node.js, React, Vue, and MongoDB. Open to remote, part-time, and contract roles.',

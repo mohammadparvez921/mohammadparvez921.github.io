@@ -1,5 +1,4 @@
 import '@/app/globals.css';
-import {Analytics} from '@vercel/analytics/next';
 import {Hanken_Grotesk, JetBrains_Mono, Syne} from 'next/font/google';
 
 import Cursor from '@/components/cursor';
@@ -36,7 +35,6 @@ export default function RootLayout({children}) {
 				<div className='grain' />
 				<Cursor />
 				{children}
-				<Analytics />
 			</body>
 		</html>
 	);
