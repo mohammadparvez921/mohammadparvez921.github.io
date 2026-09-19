@@ -34,7 +34,9 @@ export default function Hero() {
 					as='h1'
 					delay={440}
 					immediate={true}>
-					MD PARVEZ
+					MOHAMMAD
+					<br />
+					PARVEZ
 					<Cycle
 						className='l2'
 						startDelay={1400}

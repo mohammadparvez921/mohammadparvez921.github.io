@@ -36,7 +36,7 @@ export default function Nav() {
 				<a
 					className='brand'
 					href='#'>
-					md<b>Parvez</b>
+					mohammad<b>Parvez</b>
 				</a>
 				<button
 					aria-controls='nav-links'
