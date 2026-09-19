@@ -1,0 +1,33 @@
+{
+	"name": "md-parvez-portfolio",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"format": "prettier . --write",
+		"lint": "eslint . --fix",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@vercel/analytics": "^1.4.1",
+		"lucide-react": "^0.474.0",
+		"next": "^15.1.6",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@next/eslint-plugin-next": "^15.1.6",
+		"@tailwindcss/postcss": "^4.0.0",
+		"eslint": "^9.19.0",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-react": "^7.37.4",
+		"eslint-plugin-react-hooks": "^5.1.0",
+		"globals": "^15.14.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"tailwindcss": "^4.0.0"
+	}
+}
