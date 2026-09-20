@@ -18,6 +18,14 @@ const projects = [
 		featured: true,
 	},
 	{
+		title: 'WhatsApp Marketing Platform',
+		description:
+			'A Brevo-style marketing platform built around WhatsApp, for reaching customers directly on the channel they already use.',
+		stack: ['WhatsApp', 'Marketing platform'],
+		impact: 'Product · WhatsApp marketing',
+		featured: true,
+	},
+	{
 		title: 'AI-Powered Blog Writer',
 		description:
 			'Prompt-driven blogging tool built on the OpenAI API with direct WordPress publishing and input validation.',
