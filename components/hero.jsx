@@ -54,10 +54,10 @@ export default function Hero() {
 					className='lede'
 					delay={660}
 					immediate={true}>
-					I build <b>AI-powered products</b> end to end — <b>agentic systems</b>, <b>LLM integrations</b>, and the
-					real-time backends they run on. Currently building an <b>anomaly-detection AI agent</b> as{' '}
-					<b>Senior Founding Engineer at Trillectric Gridmend</b>. Available for <b>remote, part-time, and contract</b>{' '}
-					AI engineering work.
+					I design <b>data-heavy systems</b> and build <b>AI-powered products</b> on top of them —{' '}
+					<b>agentic systems</b>, <b>LLM integrations</b>, and the real-time backends they run on. Currently building an{' '}
+					<b>anomaly-detection AI agent</b> as <b>Senior Founding Engineer at Trillectric Gridmend</b>. Available for{' '}
+					<b>remote, part-time, and contract</b> AI engineering work.
 				</FadeIn>
 				<FadeIn
 					className='cta'

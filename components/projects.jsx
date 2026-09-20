@@ -12,7 +12,7 @@ const projects = [
 	{
 		title: 'Smart-Meter Data Pipeline',
 		description:
-			'Ingests ~48 data packets per meter per day: Airflow orchestration, S3 storage, ClickHouse and Athena queries, and APIs on top.',
+			'A data-heavy system: ingests ~48 data packets per meter per day with Airflow orchestration, S3 storage, ClickHouse and Athena queries, and APIs on top.',
 		stack: ['Apache Airflow', 'ClickHouse', 'AWS Athena', 'Amazon S3', 'Data pipelines', 'APIs'],
 		impact: '≈25,000 meters · ≈1.2M packets a day',
 		featured: true,

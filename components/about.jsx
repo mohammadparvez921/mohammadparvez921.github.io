@@ -15,7 +15,7 @@ const focus = [
 	'Gen AI & LLM Apps',
 	'OCR Automation',
 	'Anomaly Detection',
-	'Data Pipelines',
+	'Data-Heavy Systems',
 	'DevOps & CI/CD',
 	'Software Engineering',
 	'Real-Time Systems',
@@ -52,10 +52,10 @@ export default function About() {
 							<b>OpenAI</b>-powered content tool that lifted output by <b>50%</b>.
 						</p>
 						<p>
-							Underneath the models is real data engineering: pipelines on Airflow, S3, ClickHouse, and Athena moving
-							about <b>1.2M smart-meter data packets a day</b> from <b>25,000 meters</b>, behind dependable APIs and UI
-							that stays out of the way. I&apos;m always exploring new AI technologies and folding what works into real
-							products. Currently taking on <b>remote, part-time, and contract</b> AI engineering work.
+							Underneath the models I design <b>data-heavy systems</b>: pipelines on Airflow, S3, ClickHouse, and Athena
+							moving about <b>1.2M smart-meter data packets a day</b> from <b>25,000 meters</b>, behind dependable APIs
+							and UI that stays out of the way. I&apos;m always exploring new AI technologies and folding what works
+							into real products. Currently taking on <b>remote, part-time, and contract</b> AI engineering work.
 						</p>
 					</FadeIn>
 					<FadeIn

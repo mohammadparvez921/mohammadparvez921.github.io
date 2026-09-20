@@ -8,7 +8,7 @@ const roles = [
 		location: 'Remote, India',
 		highlights: [
 			'Currently developing an AI agent for anomaly detection to identify sensor failures, production outliers, and data inconsistencies in real-time streams.',
-			'Built smart-meter data pipelines for about 25,000 meters sending ~48 data packets each per day (≈1.2M daily) — Airflow orchestration, S3 storage, ClickHouse and Athena for analytics, and APIs on top.',
+			'Designed and built data-heavy systems for about 25,000 smart meters sending ~48 data packets each per day (≈1.2M daily) — Airflow orchestration, S3 storage, ClickHouse and Athena for analytics, and APIs on top.',
 			'Built AI-powered enhancements: AWS Textract/Rekognition for OCR-driven automation and Gemini-based geolocation extraction to enrich real-time analytics.',
 			'Engineered a real-time solar monitoring platform (MERN + Cordova), ingesting Modbus IoT sensor data over Socket.io — cut data latency by 40% and held 99% uptime in production.',
 			'Led a team of 4 engineers to architect scalable REST & GraphQL APIs on Node.js/Express.js.',
