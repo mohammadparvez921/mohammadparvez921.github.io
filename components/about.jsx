@@ -10,15 +10,15 @@ const headings = [
 ];
 
 const focus = [
+	'Applied AI Engineering',
 	'Agentic AI',
 	'Gen AI & LLM Apps',
-	'OpenAI & Gemini APIs',
 	'OCR Automation',
 	'Anomaly Detection',
 	'Data Pipelines',
+	'DevOps & CI/CD',
+	'Software Engineering',
 	'Real-Time Systems',
-	'MERN / MEVN',
-	'REST & GraphQL APIs',
 	'Exploring New AI Tech',
 	'Team Leadership',
 ];
@@ -45,11 +45,11 @@ export default function About() {
 				<div className='about-grid'>
 					<FadeIn>
 						<p>
-							I&apos;m Parvez — a full-stack AI engineer with <b>3+ years</b> shipping production systems across the{' '}
-							<b>MERN and MEVN</b> stacks. I build the AI layer and the product around it: an{' '}
-							<b>anomaly-detection agent</b> for real-time sensor data, <b>OCR automation</b> on AWS Textract and
-							Rekognition, <b>Gemini</b>-based geolocation extraction, and an <b>OpenAI</b>-powered content tool that
-							lifted output by <b>50%</b>.
+							I&apos;m Parvez — a full-stack AI engineer with <b>3+ years</b> shipping production systems across{' '}
+							<b>software, DevOps, and applied AI engineering</b>, mostly on the <b>MERN and MEVN</b> stacks. I build
+							the AI layer and the product around it: an <b>anomaly-detection agent</b> for real-time sensor data,{' '}
+							<b>OCR automation</b> on AWS Textract and Rekognition, <b>Gemini</b>-based geolocation extraction, and an{' '}
+							<b>OpenAI</b>-powered content tool that lifted output by <b>50%</b>.
 						</p>
 						<p>
 							Underneath the models is real data engineering: pipelines on Airflow, S3, ClickHouse, and Athena moving

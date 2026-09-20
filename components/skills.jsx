@@ -29,7 +29,7 @@ const groups = [
 		],
 	},
 	{
-		title: 'Cloud & DevOps',
+		title: 'DevOps & Cloud',
 		items: ['Docker', 'AWS Lambda', 'AWS IoT Core', 'Amazon S3', 'GCP', 'Nginx', 'CI/CD', 'Git'],
 	},
 ];

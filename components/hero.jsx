@@ -47,7 +47,7 @@ export default function Hero() {
 					className='role'
 					delay={550}
 					immediate={true}>
-					MERN <span>{'//'}</span> MEVN <span>{'//'}</span> Agentic &amp; Gen AI
+					Software <span>{'//'}</span> DevOps <span>{'//'}</span> Applied AI
 				</FadeIn>
 				<FadeIn
 					as='p'

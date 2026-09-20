@@ -13,7 +13,7 @@ export const meta = {
 	url: 'https://mohammadparvez921.github.io',
 	title: 'Mohammad Parvez – Full-Stack AI Engineer',
 	description:
-		'Full-stack AI engineer with 3+ years building agentic and generative-AI products — LLM integrations, OCR automation, anomaly-detection agents, and data pipelines at smart-meter scale — with Node.js, React, Vue, and MongoDB. Open to remote, part-time, and contract roles.',
+		'Full-stack AI engineer covering software, DevOps, and applied AI engineering: agentic and Gen AI products, LLM integrations, and data pipelines at smart-meter scale. Open to remote, part-time, and contract roles.',
 };
 
 export const metadata = {
