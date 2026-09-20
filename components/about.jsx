@@ -15,6 +15,7 @@ const focus = [
 	'OpenAI & Gemini APIs',
 	'OCR Automation',
 	'Anomaly Detection',
+	'Data Pipelines',
 	'Real-Time Systems',
 	'MERN / MEVN',
 	'REST & GraphQL APIs',
@@ -51,10 +52,10 @@ export default function About() {
 							lifted output by <b>50%</b>.
 						</p>
 						<p>
-							Underneath the models I care about the same things on every project — dependable APIs, clean data
-							pipelines, and UI that stays out of the way. I&apos;m always exploring new AI technologies and folding
-							what works into real products. Currently taking on <b>remote, part-time, and contract</b> AI engineering
-							work.
+							Underneath the models is real data engineering: pipelines on Airflow, S3, ClickHouse, and Athena moving
+							about <b>1.2M smart-meter data packets a day</b> from <b>25,000 meters</b>, behind dependable APIs and UI
+							that stays out of the way. I&apos;m always exploring new AI technologies and folding what works into real
+							products. Currently taking on <b>remote, part-time, and contract</b> AI engineering work.
 						</p>
 					</FadeIn>
 					<FadeIn

@@ -847,7 +847,9 @@ footer {
 	}
 
 	.stats {
-		gap: 20px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 24px 20px;
 		margin-top: 44px;
 	}
 

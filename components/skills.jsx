@@ -16,11 +16,21 @@ const groups = [
 	},
 	{
 		title: 'Data & Systems',
-		items: ['MongoDB', 'Mongoose', 'MySQL', 'IoT / Modbus', 'Real-time streams'],
+		items: [
+			'ClickHouse',
+			'Apache Airflow',
+			'AWS Athena',
+			'Data pipelines',
+			'MongoDB',
+			'Mongoose',
+			'MySQL',
+			'IoT / Modbus',
+			'Real-time streams',
+		],
 	},
 	{
 		title: 'Cloud & DevOps',
-		items: ['Docker', 'AWS Lambda', 'AWS IoT Core', 'GCP', 'Nginx', 'CI/CD', 'Git'],
+		items: ['Docker', 'AWS Lambda', 'AWS IoT Core', 'Amazon S3', 'GCP', 'Nginx', 'CI/CD', 'Git'],
 	},
 ];
 

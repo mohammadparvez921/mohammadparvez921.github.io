@@ -5,9 +5,9 @@ const titles = ['Full-Stack AI Engineer', 'Agentic AI', 'Gen AI', 'Exploring AI 
 
 const stats = [
 	{n: '3+', k: 'Years in production'},
+	{n: '25K', k: 'Smart meters in pipeline'},
+	{n: '1.2M', k: 'Data packets per day'},
 	{n: '+50%', k: 'AI content output'},
-	{n: '−80%', k: 'Input errors'},
-	{n: '4', k: 'Engineers led'},
 ];
 
 export default function Hero() {
