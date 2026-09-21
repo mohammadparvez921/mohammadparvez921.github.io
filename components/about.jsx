@@ -11,6 +11,7 @@ const headings = [
 
 const focus = [
 	'Applied AI Engineering',
+	'MVP Specialist',
 	'Agentic AI',
 	'Gen AI & LLM Apps',
 	'OCR Automation',
@@ -49,7 +50,8 @@ export default function About() {
 							<b>software, DevOps, and applied AI engineering</b>, mostly on the <b>MERN and MEVN</b> stacks. I build
 							the AI layer and the product around it: an <b>anomaly-detection agent</b> for real-time sensor data,{' '}
 							<b>OCR automation</b> on AWS Textract and Rekognition, <b>Gemini</b>-based geolocation extraction, and an{' '}
-							<b>OpenAI</b>-powered content tool that lifted output by <b>50%</b>.
+							<b>OpenAI</b>-powered content tool that lifted output by <b>50%</b>. As a founding engineer I&apos;ve
+							taken products from zero to production, so I&apos;m a strong fit for <b>MVPs and early-stage builds</b>.
 						</p>
 						<p>
 							Underneath the models I design <b>data-heavy systems</b>: pipelines on Airflow, S3, ClickHouse, and Athena
