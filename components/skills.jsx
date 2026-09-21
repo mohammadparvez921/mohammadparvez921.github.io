@@ -21,6 +21,8 @@ const groups = [
 			'Apache Airflow',
 			'AWS Athena',
 			'Data pipelines',
+			'PostgreSQL',
+			'Supabase',
 			'MongoDB',
 			'Mongoose',
 			'MySQL',
